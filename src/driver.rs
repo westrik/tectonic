@@ -223,7 +223,7 @@ impl FromStr for OutputFormat {
             "html" => Ok(OutputFormat::Html),
             "xdv" => Ok(OutputFormat::Xdv),
             "pdf" => Ok(OutputFormat::Pdf),
-            "fmt" => Ok(OutputFormat::Format),
+            "format" => Ok(OutputFormat::Format),
             _ => Err("unsupported or unknown format"),
         }
     }
